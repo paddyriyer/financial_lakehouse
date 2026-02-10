@@ -148,25 +148,25 @@ python tests/test_data_quality.py
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    SOURCE SYSTEMS                        │
-│  Core Banking │ Salesforce CRM │ Fiserv │ Digital APIs   │
+│                    SOURCE SYSTEMS                       │
+│  Core Banking │ Salesforce CRM │ Fiserv │ Digital APIs  │
 └──────┬────────┴───────┬────────┴───┬────┴──────┬────────┘
        │                │            │           │
        ▼                ▼            ▼           ▼
 ┌─────────────────────────────────────────────────────────┐
-│            S3 DELTA LAKEHOUSE (Medallion)                │
-│                                                          │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐│
-│  │  BRONZE   │→│  SILVER   │→│   MDM    │→│   GOLD   ││
-│  │  (Raw)    │  │ (Clean)   │  │ (Golden) │  │  (Star)  ││
-│  └──────────┘  └──────────┘  └──────────┘  └──────────┘│
+│            S3 DELTA LAKEHOUSE (Medallion)               │
+│                                                         │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐ │
+│  │  BRONZE  │→ │  SILVER  │→ │   MDM    │→ │   GOLD   │ │
+│  │  (Raw)   │  │ (Clean)  │  │ (Golden) │  │  (Star)  │ │
+│  └──────────┘  └──────────┘  └──────────┘  └──────────┘ │
 └─────────────────────────┬───────────────────────────────┘
                           │
             ┌─────────────┼─────────────┐
             ▼             ▼             ▼
      ┌────────────┐ ┌───────────┐ ┌─────────────┐
-     │  Snowflake  │ │   Athena   │ │ 10 Executive │
-     │  (Analytics)│ │  (Ad Hoc)  │ │  Dashboards  │
+     │ Snowflake  │ │   Athena  │ │10 Executive │
+     │ (Analytics)│ │  (Ad Hoc) │ │ Dashboards  │
      └────────────┘ └───────────┘ └─────────────┘
 ```
 
