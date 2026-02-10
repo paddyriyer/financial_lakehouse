@@ -3,8 +3,18 @@
 > **POC: Revenue-Boosting MDM Platform for Diversified Financial Services**
 > Built with Claude Opus 4.6 AI Agents • AWS • Delta Lake • Snowflake
 
-![Executive Pulse Dashboard](fintech%20dashboard/00_Executive_Pulse.gif)
 ---
+
+## 📊 Executive Dashboards
+
+### Executive Pulse
+![Executive Pulse](fintech%20dashboard/00_Executive_Pulse.gif)
+
+### Revenue & Profitability
+![Revenue & Profitability](fintech%20dashboard/01_Revenue_Profitability.gif)
+
+### Customer 360
+![Customer 360](fintech%20dashboard/02_Customer_360.gif)
 
 ## 🎯 What Is This?
 
