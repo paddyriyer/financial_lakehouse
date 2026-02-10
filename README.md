@@ -3,6 +3,7 @@
 > **POC: Revenue-Boosting MDM Platform for Diversified Financial Services**
 > Built with Claude Opus 4.6 AI Agents • AWS • Delta Lake • Snowflake
 
+![til](finserv-mdm-lakehouse/fintech dashboard/00_Executive_Pulse.gif)
 ---
 
 ## 🎯 What Is This?
