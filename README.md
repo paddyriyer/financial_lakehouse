@@ -8,13 +8,13 @@
 ## 📊 Executive Dashboards
 
 ### Executive Pulse
-![Executive Pulse](fintech%20dashboard/00_Executive_Pulse.gif)
+![Executive Pulse](00_Executive_Pulse.gif)
 
 ### Revenue & Profitability
-![Revenue & Profitability](fintech%20dashboard/01_Revenue_Profitability.gif)
+![Revenue & Profitability](01_Revenue_Profitability.gif)
 
 ### Customer 360
-![Customer 360](fintech%20dashboard/02_Customer_360.gif)
+![Customer 360](02_Customer_360.gif)
 
 ## 🎯 What Is This?
 
