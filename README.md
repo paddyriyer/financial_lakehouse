@@ -4,6 +4,7 @@
 > Built with Claude Opus 4.6 AI Agents • AWS • Delta Lake • Snowflake
 
 ---
+![Title](LinkedIn_Title_Image.png)
 
 ## 📊 Executive Dashboards
 
